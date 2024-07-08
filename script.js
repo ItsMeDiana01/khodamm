@@ -102,7 +102,8 @@ const khodamsKhusus = [
 ];
 
 const khodamsKhusus1 = [
-  "Calon Ketua UKM","Ketua UKM Masa Depan",
+  "Calon Ketua UKM",
+  "Ketua UKM Masa Depan",
 ];
 
 function cekKhodam() {
@@ -110,12 +111,13 @@ function cekKhodam() {
   const nim = document.getElementById("nim").value;
   let khodam;
 
-   const namaPrivasi = ["Yoga", "Yoga Mardiana", "I Gede Yoga Mardiana Putra"];
+  const namaPrivasi = ["Yoga", "Yoga Mardiana", "I Gede Yoga Mardiana Putra"];
   
   if (nim === "2315051001" || namaPrivasi.includes(nama)) {
     alert("KHODAM BERSIFAT PRIVASI!");
     return;
   }
+
   if (
     nim.startsWith("17") ||
     nim.startsWith("18") ||
@@ -124,14 +126,13 @@ function cekKhodam() {
     nim.startsWith("21")
   ) {
     khodam = khodamsKhusus[Math.floor(Math.random() * khodamsKhusus.length)];
-  } 
-   if else (
-    nama.startsWith("Galang") || nama.startsWith("Galang Sugihana Wijaya") || nama.startsWith("I Gusti Ngurah Gede Galang Sugihana Wijaya")
+  } else if (
+    nama.startsWith("Galang") || 
+    nama === "Galang Sugihana Wijaya" || 
+    nama === "I Gusti Ngurah Gede Galang Sugihana Wijaya"
   ) {
     khodam = khodamsKhusus1[Math.floor(Math.random() * khodamsKhusus1.length)];
-  }
-  
-  else {
+  } else {
     khodam = khodams[Math.floor(Math.random() * khodams.length)];
   }
 
