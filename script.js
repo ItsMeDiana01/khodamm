@@ -110,7 +110,18 @@ function cekKhodam() {
     alert("KHODAM BERSIFAT PRIVASI!");
     return;
   }
-
+  if (nama === "Yoga") {
+    alert("KHODAM BERSIFAT PRIVASI!");
+    return;
+  }
+  if (nama === "Yoga Mardiana") {
+    alert("KHODAM BERSIFAT PRIVASI!");
+    return;
+  }
+  if (nama === "I Gede Yoga Mardiana Putra") {
+    alert("KHODAM BERSIFAT PRIVASI!");
+    return;
+  }
   if (
     nim.startsWith("17") ||
     nim.startsWith("18") ||
