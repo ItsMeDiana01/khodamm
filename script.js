@@ -106,6 +106,11 @@ function cekKhodam() {
   const nim = document.getElementById("nim").value;
   let khodam;
 
+  if (nim === "2315051001") {
+    alert("KHODAM BERSIFAT PRIVASI!");
+    return;
+  }
+
   if (
     nim.startsWith("17") ||
     nim.startsWith("18") ||
