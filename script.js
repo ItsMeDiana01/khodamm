@@ -118,7 +118,7 @@ function cekKhodam() {
     khodam = khodams[Math.floor(Math.random() * khodams.length)];
   }
 
-  const hasilText = `Anggaota UKM bernama ${nama} dengan NIM ${nim} memiliki khodam: <br><span class="khodam-result">${khodam}</span>`;
+  const hasilText = `Anggota UKM bernama ${nama} dengan NIM ${nim} memiliki khodam: <br><span class="khodam-result">${khodam}</span>`;
   document.getElementById("hasilText").innerHTML = hasilText;
   document.getElementById("khodamForm").classList.add("hidden");
   document.getElementById("hasilKhodam").classList.remove("hidden");
