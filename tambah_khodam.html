@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tambah Khodam Baru</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: rgb(255, 153, 0);">
+    <center><img src="https://d1fdloi71mui9q.cloudfront.net/V8qUpbAxSeSbMyBsLvlt_yyvAb4sep8KNQmhx" alt="logo ukm kone" height="200px"></center>
+    <div class="container mt-5 d-flex justify-content-center">
+      <div class="card">
+        <div class="card-header text-center">
+          <h1>Tambah Khodam Baru</h1>
+          <a href="/index.html";">Kembali</a>
+        </div>
+        <div class="card-body">
+          <form id="addKhodamForm">
+            <div class="form-group">
+              <label for="newKhodam">Khodam Baru:</label>
+              <input
+                type="text"
+                id="newKhodam"
+                name="newKhodam"
+                class="form-control"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-success btn-block">
+              Tambah Khodam
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="/tambah_khodam.html"></script>
+  </body>
+</html>
