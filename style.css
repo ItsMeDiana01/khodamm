@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: linear-gradient(to right, #002aff , #4E0EAB);
+    background: linear-gradient(to right, #002aff, #4E0EAB);
 };
-  }
+  
   
   .card {
     margin: auto;
