@@ -92,6 +92,8 @@ const khodams = [
   "Pencari Jodoh Online",
   "Jomblo Abadi",
   "Penguasa Study Group",
+  "Ketupat Abadi",
+  "Penghuni UKM",
 ];
 
 const khodamsKhusus = [
@@ -111,7 +113,7 @@ function cekKhodam() {
   const nim = document.getElementById("nim").value;
   let khodam;
 
-  const namaPrivasi = ["Yoga", "Yoga Mardiana", "I Gede Yoga Mardiana Putra"];
+  const namaPrivasi = ["Yoga", "Yoga Mardiana", "I Gede Yoga Mardiana Putra","yoga","mardiana"];
   
   if (nim === "2315051001" || namaPrivasi.includes(nama)) {
     alert("KHODAM BERSIFAT PRIVASI!");
@@ -129,7 +131,8 @@ function cekKhodam() {
   } else if (
     nama.startsWith("Galang") || 
     nama === "Galang Sugihana Wijaya" || 
-    nama === "I Gusti Ngurah Gede Galang Sugihana Wijaya"
+    nama === "I Gusti Ngurah Gede Galang Sugihana Wijaya"||
+    nama === "galang"
   ) {
     khodam = khodamsKhusus1[Math.floor(Math.random() * khodamsKhusus1.length)];
   } else {
