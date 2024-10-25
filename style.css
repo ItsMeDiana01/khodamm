@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #002aff, #4E0EAB);
+    background: linear-gradient(to right, #85BDAA , #03AB99);
 };
   
   
@@ -10,6 +10,21 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
+  .card-header{
+    background-color: #e7f6fc
+    font-weight: bold;
+    font-family: cursive;
+
+
+
+    ;
+
+  }
+
+.card-body{
+  background-color: #A5CFE3;
+}
+
   .hidden {
     display: none;
   }
@@ -19,3 +34,6 @@ body {
     font-size: 3.2em;
   }
   
+.present{
+  font-family: cursive;
+}
